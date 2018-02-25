@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: d97f532505a450445bfbcd518b9ffcc0
+timeCreated: 1518277359
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pigkonez_0
+    21300002: pigkonez_1
+    21300004: pigkonez_2
+    21300006: pigkonez_3
+    21300008: pigkonez_4
+    21300010: pigkonez_5
+    21300012: pigkonez_6
+    21300014: pigkonez_7
+    21300016: pigkonez_8
+    21300018: pigkonez_9
+    21300020: pigkonez_10
+    21300022: pigkonez_11
+    21300024: pigkonez_12
+    21300026: pigkonez_13
+    21300028: pigkonez_14
+    21300030: pigkonez_15
+    21300032: pigkonez_16
+    21300034: pigkonez_17
+    21300036: pigkonez_18
+    21300038: pigkonez_19
+    21300040: pigkonez_20
+    21300042: pigkonez_21
+    21300044: pigkonez_22
+    21300046: pigkonez_23
+    21300048: pigkonez_24
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pigkonez_0
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 11577
+        width: 4852
+        height: 3543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_1
+      rect:
+        serializedVersion: 2
+        x: 10310
+        y: 14095
+        width: 604
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 67, y: 0, z: 50, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_2
+      rect:
+        serializedVersion: 2
+        x: 10428
+        y: 13609
+        width: 486
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 67, y: 0, z: 50, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_3
+      rect:
+        serializedVersion: 2
+        x: 9535
+        y: 8249
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_4
+      rect:
+        serializedVersion: 2
+        x: 10061
+        y: 7991
+        width: 378
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_5
+      rect:
+        serializedVersion: 2
+        x: 9612
+        y: 9048
+        width: 493
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_6
+      rect:
+        serializedVersion: 2
+        x: 9908
+        y: 9694
+        width: 268
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_7
+      rect:
+        serializedVersion: 2
+        x: 9163
+        y: 9475
+        width: 367
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_8
+      rect:
+        serializedVersion: 2
+        x: 9289
+        y: 8517
+        width: 377
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_9
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 9233
+        width: 468
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_10
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 8716
+        width: 373
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_11
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 8363
+        width: 194
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_12
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 8308
+        width: 99
+        height: 129
+      alignment: 9
+      pivot: {x: 0.49999893, y: 0.3395051}
+      border: {x: 0, y: 0, z: 0, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_13
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 8243
+        width: 189
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_14
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 8522
+        width: 363
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_15
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 9059
+        width: 473
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_16
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 9691
+        width: 273
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_17
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 9467
+        width: 378
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_18
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 7995
+        width: 363
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_19
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 3849
+        width: 478
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_20
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 4071
+        width: 370
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_21
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 3694
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_22
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3142
+        width: 363
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2092
+        width: 371
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pigkonez_24
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2604
+        width: 383
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
