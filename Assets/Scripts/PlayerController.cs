@@ -11,15 +11,23 @@ public class PlayerController : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Meteor")
         {
-            GameManager.instance.EndGameDestroy();
+            GameManager.instance.TakeDamage(1);
         }
         if (collision.gameObject.tag == "Fuel")
         {
-            GameManager.instance.AddFuel(10);
+            GameManager.instance.AddFuel(15);
         }
         if (collision.gameObject.tag == "Oxygen")
         {
-            GameManager.instance.AddOxygen(20);
+            GameManager.instance.AddOxygen(30);
+        }
+        if (collision.gameObject.tag == "LifeBonus")
+        {
+            GameManager.instance.AddHP(1);
+        }
+        if (collision.gameObject.tag == "speedBonus")
+        {
+            GameManager.instance.DecreaseGameSpeed(2);
         }
     }
 

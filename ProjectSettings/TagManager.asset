@@ -7,6 +7,8 @@ TagManager:
   - Meteor
   - Oxygen
   - Fuel
+  - LifeBonus
+  - speedBonus
   layers:
   - Default
   - TransparentFX

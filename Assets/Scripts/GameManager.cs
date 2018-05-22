@@ -6,13 +6,17 @@ public class GameManager : MonoBehaviour
 {
     public KeyCode pauseGame;
     public KeyCode exitGame;
-    public GameObject pauseScreen;
+    public KeyCode switchBG;
 
+    public GameObject pauseScreen;
     public GameObject endGameScreen;
+    public GameObject bg1;
+    public GameObject bg2;
 
     public Text breatheCounterText;
     public Text scoreText;
     public Text fuelText;
+    public Text livesText;
     public Text endGameText;
     public Text endGameScoreText;
 
@@ -22,6 +26,9 @@ public class GameManager : MonoBehaviour
     private float breatheCounter = 101;
     private float score = 0;
     private float fuel = 100;
+    private int gameSpeedMod = 10;
+    private int lives = 3;
+    private int currActiveBG = 1;
 
     private bool gameOver = false;
 
@@ -45,6 +52,7 @@ public class GameManager : MonoBehaviour
         breatheCounterText.text = "Breathe: " + (int)breatheCounter;
         scoreText.text = "Score: " + (int)score;
         fuelText.text = "Fuel: " + (int)fuel;
+        livesText.text = "Lives: " + (int)lives;
     }
 
     private void Update()
@@ -53,6 +61,8 @@ public class GameManager : MonoBehaviour
             ExitGame();
         if (Input.GetKeyDown(pauseGame))
             PauseGame();
+        if (Input.GetKeyDown(switchBG))
+            SwitchBG();
         if (breatheCounter <= 0)
         {
             EndGameBreathe();
@@ -60,7 +70,42 @@ public class GameManager : MonoBehaviour
         gameTime += Time.deltaTime;
         breatheCounter -= 5f * Time.deltaTime * gameSpeed;
         score += 4f * Time.deltaTime * gameSpeed;
-        gameSpeed = gameTime / 10 + 1;
+        gameSpeed = gameTime / gameSpeedMod + 1;
+    }
+
+    public void DecreaseGameSpeed(int count)
+    {
+        gameSpeedMod += count;
+    }
+
+    public void SwitchBG()
+    {
+        if (currActiveBG <= 1)
+        {
+            currActiveBG = 2;
+        }
+        else
+        {
+            currActiveBG = 1;
+        }
+        UpdateBG();
+    }
+
+    void UpdateBG()
+    {
+        switch (currActiveBG)
+        {
+            case 1:
+                bg1.SetActive(true);
+                bg2.SetActive(false);
+                break;
+            case 2:
+                bg2.SetActive(true);
+                bg1.SetActive(false);
+                break;
+            default:
+                break;
+        }
     }
 
     public void ActivateTrusters()
@@ -113,6 +158,17 @@ public class GameManager : MonoBehaviour
         endGameText.text = "You have run out of oxygen!";
         endGameScoreText.text = "Score: " + (int)score + "\nHighScore: " + (int)PlayerPrefs.GetFloat("HighScore");
         gameOver = true;
+    }
+
+    public void TakeDamage(int count)
+    {
+        lives -= count;
+        if (lives <= 0) EndGameDestroy();
+    }
+
+    public void AddHP(int count)
+    {
+        lives += count;
     }
 
     public void EndGameDestroy()

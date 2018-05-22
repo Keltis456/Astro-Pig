@@ -21,13 +21,7 @@ public class ObjectMover : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
         {
-            if (anim != null)
-            {
-                anim.wrapMode = WrapMode.Once;
-                anim.Play();
-                Destroy(gameObject);
-                Debug.Log("OM-NOM-NOM : "+name);
-            }
+            Destroy(gameObject);
         }
     }
 }
